@@ -7,7 +7,7 @@ public class Main {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce tu nombre, profesión y tu país de origen: ");
         java.lang.String entrada = teclado.nextLine();
-        java.lang.String[] separado = entrada.split("");
+        java.lang.String[] separado = entrada.split(" ");
 
         String nombre = separado[0];
         String profesion = separado[1];
